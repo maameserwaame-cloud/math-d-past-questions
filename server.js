@@ -15,7 +15,7 @@ res.end('Something went wrong with the proxy request.');
 // Create a standard HTTP server that listens for incoming requests
 const server = http.createServer(function(req, res) {
 // Define the target website you want to fetch data from
-const target = 'https://example.com';
+const target =  'https://wikipedia.org';
 
 console.log(`Proxying request for: ${req.url} -> Target: ${target}`);
 
