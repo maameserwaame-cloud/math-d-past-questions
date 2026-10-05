@@ -1,0 +1,12 @@
+{
+"name": "basic-routing-server",
+"version": "1.0.0",
+"description": "Educational Node.js proxy routing experiment",
+"main": "server.js",
+"scripts": {
+"start": "node server.js"
+},
+"dependencies": {
+"http-proxy": "^1.18.1"
+}
+}
